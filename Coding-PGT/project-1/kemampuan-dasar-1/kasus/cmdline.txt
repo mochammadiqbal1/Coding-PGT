@@ -1,19 +1,11 @@
-Date
-Color
-Cls
-exit
-Cd
-Echo
-Erase
-Edit
-pause
-start
-verify
-Dir
-Tree
-Ping
-Ipconfig
-Mkdir
-Move
-Rename
-Shutdown
+#Date
+
+<p>
+Menampilkan atau menetapkan tanggal sistem. Jika digunakan tanpa parameter, tanggal menampilkan pengaturan tanggal sistem saat ini dan meminta Anda untuk memasukkan tanggal baru.
+</p>
+
+#Color
+
+<p>
+Mengubah warna latar depan dan latar belakang di jendela Prompt Perintah untuk sesi saat ini. Jika digunakan tanpa parameter, warna akan mengembalikan warna latar depan dan latar belakang jendela Command Prompt default.
+</p>
