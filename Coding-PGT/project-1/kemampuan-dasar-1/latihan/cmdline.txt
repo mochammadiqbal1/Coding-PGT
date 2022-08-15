@@ -30,7 +30,6 @@ Menghapus satu atau lebih file. Jika Anda menggunakan erase untuk menghapus file
 
 Mengubah file teks.
 
-
 #pause
 
 Untuk memberhentikan code progam sementara.
@@ -39,9 +38,9 @@ Untuk memberhentikan code progam sementara.
 
 Untuk memulai code progam.
 
-#verify
+#Rmdir
 
-Memberi tahu alat Prompt Perintah (cmd.exe) apakah akan memverifikasi file Anda ditulis dengan benar ke disk.
+Untuk menghapus direktori.
 
 #Dir
 
