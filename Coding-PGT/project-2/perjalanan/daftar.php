@@ -8,6 +8,8 @@ if (isset($_POST["daftar"])) {
 	$password = $_POST["password"];
 
     $nama_file = fopen("user/$nama.txt" ,"w");
+	
+    // fwrite untuk menulis sebuah content di file
 
     fwrite($nama_file, "$nik\n" . "$nama\n" . "$password");
 
@@ -49,19 +51,19 @@ if (isset($_POST["daftar"])) {
 
 	<div class="mb-3">
 
-		<input type="text" name="nik" placeholder="Nik" class="form-control">
+		<input type="text" name="nik" placeholder="Nik" class="form-control" required>
 
 	</div>
 
 	<div class="mb-3">
 
-		<input type="text" name="nama" placeholder="Nama" class="form-control">
+		<input type="text" name="nama" placeholder="Nama" class="form-control" required>
 
 	</div>
 	
 	<div class="mb-3">
 
-		<input type="password" name="password" placeholder="Password" class="form-control">
+		<input type="password" name="password" placeholder="Password" class="form-control" required>
 
 	</div>
 
