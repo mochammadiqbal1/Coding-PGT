@@ -69,19 +69,19 @@ if (isset($_POST["login"])) {
 
 	<div class="mb-3">
 
-		<input type="text" name="nik" placeholder="Nik" class="form-control">
+		<input type="text" name="nik" placeholder="Nik" class="form-control" required>
 
 	</div>
 
 	<div class="mb-3">
 
-		<input type="text" name="nama" placeholder="Nama" class="form-control">
+		<input type="text" name="nama" placeholder="Nama" class="form-control" required>
 
 	</div>
 
 	<div class="mb-3">
 
-		<input type="password" name="password" placeholder="Password" class="form-control">
+		<input type="password" name="password" placeholder="Password" class="form-control" required>
 
 	</div>
 
