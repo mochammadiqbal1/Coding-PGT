@@ -57,9 +57,9 @@ Menampilkan struktur direktori jalur atau disk dalam drive secara grafis. Strukt
 Memverifikasi konektivitas tingkat IP ke komputer TCP/IP lain dengan mengirimkan pesan permintaan gema Internet Control Message Protocol (ICMP). Tanda terima pesan Balasan gema yang sesuai ditampilkan, bersama dengan waktu pulang pergi. ping adalah perintah TCP/IP utama yang digunakan untuk memecahkan masalah konektivitas, keterjangkauan, dan resolusi nama. Digunakan tanpa parameter, perintah ini menampilkan konten Bantuan.
 
 
-#Ipconfig
+#Fsutil file
 
-Menampilkan semua nilai konfigurasi jaringan TCP/IP saat ini dan menyegarkan pengaturan Protokol Konfigurasi Host Dinamis (DHCP) dan Sistem Nama Domain (DNS). Digunakan tanpa parameter, ipconfig menampilkan Internet Protocol versi 4 (IPv4) dan alamat IPv6, subnet mask, dan gateway default untuk semua adapter.
+Untuk Membuat File Baru.
 
 
 #Mkdir
