@@ -1,13 +1,20 @@
 <?php
 
+// Membuat Sesi User
 session_start();
+
+// Kondisi Untuk Login Perjalanan
 
 if (isset($_POST["login"])) {
   
+    // Post login untuk mengambil data dari form login
+	
     $nik = $_POST["nik"];
     $nama = $_POST["nama"];
 	$password = $_POST["password"];
 
+	// fopen untuk membuka file sesuai dengan nama user
+	
 	$nama_file = fopen("user/$nama.txt","r");
 
 	$data_nik = fgets($nama_file);
