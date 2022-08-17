@@ -23,6 +23,8 @@ if (isset($_POST["kirim_catatan"])) {
     fclose($nama_file);
 }
 
+// untuk membuka file sesuai nama user
+
 $file = fopen("catatan/$nama.txt", "a+");
 
 ?>
@@ -127,7 +129,9 @@ $file = fopen("catatan/$nama.txt", "a+");
                             </thead>
                             <tbody>
                             <?php
-                        
+        			
+				// Mengambil isi content di sebuah file user
+	
                                 while(!feof($file))
                                 {
                                 echo fgets($file);
