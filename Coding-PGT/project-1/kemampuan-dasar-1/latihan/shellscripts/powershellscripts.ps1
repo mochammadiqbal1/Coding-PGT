@@ -10,7 +10,7 @@ Set-ExecutionPolicy
 //AlamatIp
 Test-Connection
 
-New-File
+New-item
 
 Get-help
 
